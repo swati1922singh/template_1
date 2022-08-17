@@ -87,10 +87,16 @@ ul li {
 .start_part {
   display: flex;
   gap: 3rem;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 .end_part {
   display: flex;
   margin-left: 100%;
+}
+.part_1{
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 .logo {
   font-size: 1.2rem;
