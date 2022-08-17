@@ -1,0 +1,103 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.dropdown {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: start;
+}
+@media screen and (max-width: 765px) {
+  .dropdown {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.d_image {
+  width: 70%;
+  height: 70%;
+}
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.toggleBtn {
+  display: none;
+}
+@media screen and (max-width: 765px) {
+  .toggleBtn {
+    display: block;
+  }
+}
+.desktopView {
+  display: flex;
+  gap: 15px;
+}
+@media screen and (max-width: 765px) {
+  .desktopView {
+    display: none;
+  }
+}
+.desktop_home {
+  display: none;
+}
+@media screen and (max-width: 765px) {
+  .desktop_home {
+    display: block;
+  }
+}
+.nav_btn {
+  font-size: 18px;
+  background-color: blue;
+  display: block;
+  color: white;
+  width: 8rem;
+  height: 3rem;
+  border: none;
+  margin-top: 8px;
+  display: block;
+}
+@media screen and (max-width: 765px) {
+  .nav_btn {
+    display: none;
+  }
+}
+
+.d-none {
+  display: none !important;
+}
+.homeHover:hover + .hover_content {
+  display: block !important;
+}
+.hover_content {
+  display: none;
+}
+.hover_content:hover {
+  display: block;
+}
+
+.mod {
+  display: flex;
+}
+.content {
+  display: flex;
+  margin-left: 10%;
+}
+.start_part {
+  display: flex;
+  gap: 3rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.end_part {
+  display: flex;
+  margin-left: 100%;
+}
+.logo {
+  font-size: 1.2rem;
+  color: blueviolet;
+  margin-left: 3rem;
+  margin-top: 0.9rem;
+}
+/*============================================================================*/
