@@ -1,0 +1,417 @@
+/*====================================================Head====================================================*/
+.hero {
+  padding: 4%;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+}
+
+.text-section {
+  text-align: start;
+  padding-left: 2.5rem;
+  padding-top: 3rem;
+}
+.heading1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #242931;
+  margin-bottom: 3px;
+}
+.paragraph1 {
+  margin-top: 3px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #747990;
+}
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+.btn1 {
+  background-color: #6302d0;
+  color: white;
+  font-size: 0.9rem;
+  border: none;
+  height: 3rem;
+  width: 8.5rem;
+  font-weight: 700;
+}
+.btn2 {
+  background-color: white;
+  color: #6302d0;
+  border-color: #6302d0;
+  border-width: 0.1px;
+  width: 5.5rem;
+  font-weight: 700;
+}
+.video-section {
+  margin-left: 3rem;
+  padding-left: 1rem;
+}
+.video {
+  width: 100%;
+  height: 80%;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.company-logo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+@media screen and (max-width: 600px) {
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+/*====================================================Cards_8====================================================*/
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 6%;
+}
+@media screen and (max-width: 600px) {
+  .card-section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+/*====================================================service-section====================================================*/
+.service-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 7%;
+}
+.text-section1 {
+  text-align: start;
+  padding-left: 2.5rem;
+  padding-top: 3rem;
+}
+.title2 {
+  color: #6e0bde;
+  font-size: 1rem;
+  font-style: bold;
+  font-weight: 700;
+  text-align: start;
+  padding-bottom: 2px;
+}
+.heading_2 {
+  text-align: start;
+  color: #242931;
+  padding-top: 2px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  font-size: 3rem;
+  font-style: bold;
+  font-weight: 700;
+}
+.description2 {
+  text-align: start;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #8c8f94;
+  padding-right: 4.5rem;
+}
+.image_section2 {
+  margin-right: auto;
+}
+@media screen and (max-width: 600px) {
+  .service-section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/*====================================================Card_1====================================================*/
+.card_text {
+  padding-right: 2rem;
+}
+.card_1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 30px;
+  background-color: #6e0bde;
+  max-width: 80%;
+  margin: auto;
+  text-align: start;
+}
+.card_1_link {
+  color: white;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+.card_1_heading {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.card_1_description {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: white;
+}
+.card_1_title {
+  padding-top: 4rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.imagecard {
+  margin-left: auto;
+}
+
+.button_portion {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+/*============================================Company_logo=========================================================*/
+
+.company-logo-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  max-width: 940px;
+  margin: auto;
+  padding-top: 3.5rem;
+}
+@media screen and (max-width: 600px) {
+  .company-logo-card {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+/* textsandcompanytags */
+.company-logo1 {
+  padding: 7%;
+}
+.heading2 {
+  font-size: 1rem;
+  text-align: center;
+  color: #6302d0;
+  font-style: bold;
+  font-weight: 700;
+}
+
+/*====================================================our_solution_card====================================================*/
+.heading3 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #6302d0;
+  font-weight: 700;
+}
+.heading4 {
+  font-size: 2.1rem;
+  text-align: center;
+  color: #252e3c;
+  font-weight: 700;
+}
+.solution_card {
+  padding-left: 6rem;
+}
+.card_solution {
+  background-color: white;
+  text-align: start;
+}
+.card_icon {
+  width: 25%;
+  height: 25%;
+}
+.producticon {
+  height: 100%;
+  width: 100%;
+}
+
+.our_solution_card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 4rem;
+}
+.card_2_description {
+  font-weight: 400;
+  color: #8a8d92;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+.card_2_heading {
+  color: #272d38;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 600px) {
+  .our_solution_card {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+/*====================================================footer-cta==================================================== */
+.footer_card {
+  background-color: #6302d0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.textcard {
+  color: aliceblue;
+  margin: 3rem;
+  text-align: start;
+}
+.headcard {
+  font-weight: 500;
+}
+.headingcard {
+  font-weight: 500;
+  font-size: 3rem;
+  font-style: bold;
+}
+.button_part {
+  margin: 3rem;
+}
+.button_s {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.btn {
+  font-size: 1rem;
+  width: 30%;
+  border: none;
+  background-color: whitesmoke;
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  font-size: 1rem;
+  color: white;
+  margin: auto;
+}
+@media screen and (max-width: 600px) {
+  .footer_card {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/*====================================================footer====================================================*/
+.footer {
+  background-color: #252e3c;
+  padding: 7%;
+}
+.iteams {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  text-align: start;
+}
+
+.footer_end_part {
+  border-top: 2px;
+  border-color: white;
+}
+.footer_end {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: white;
+}
+
+.contact {
+  margin-left: 6rem;
+  display: flex;
+  gap: 30px;
+}
+
+.ul {
+  list-style: none;
+  gap: 10px;
+}
+.list_1 {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 200;
+}
+.list {
+  margin: 7px;
+  color: grey;
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-style: normal;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  color: white;
+  margin-top: 14px;
+}
+.subscribe_btn {
+  width: 15rem;
+  height: 3rem;
+}
+@media screen and (max-width: 600px) {
+  .iteams {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .footer_end {
+    display: grid;
+    justify-content: center;
+  }
+}
+
+.head {
+  color: #6302d0;
+  font-size: 30px;
+  font-weight: 300;
+}
+/*====================================================CARD====================================================*/
+
+.card {
+  padding: 30px;
+  background-color: white;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.card_description {
+  padding-top: 2px;
+  margin-top: 2px;
+  color: grey;
+  font-size: 0.9rem;
+}
+.card_heading {
+  padding-top: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+  color: black;
+  font-size: 20px;
+}
+
+/* svg */
+.bp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  min-width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.5rem;
+  background: blue;
+  transition: all 0.3s;
+}
+.hr {
+  border: solid black;
+}
